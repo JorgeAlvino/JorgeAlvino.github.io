@@ -1,0 +1,214 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: url(../Imagenes/Logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+a{
+  text-decoration: none;
+}
+
+.Cabesera{
+  background: #7CB6E6;
+  height: 360px;
+  box-shadow: 5px 5px 5px #999;
+
+}
+.Cabesera .img{
+  background: blue;
+  width: 20%;
+  height: 40%;
+  margin-top: 4%;
+  margin-left: 15%;
+  float: left;
+  border: solid 10px white;
+  border-radius: 5px;
+
+}
+
+
+
+.Titulo{
+  background: transparent;
+  width: 35%;
+  text-align: center;
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+.icon-yelp{
+  float: left;
+  display: inline-block;
+  font-size: 30px;
+  color: blue;
+}
+.titulo{
+  display: inline-block;
+  float: left;
+  color: rgb(0, 55, 148);
+  text-align: left;
+  font-family: bold 30px sans-serif;
+  font-size: 28px;
+}
+hr{
+  width: 80%;
+  border: solid 1px white;
+}
+h3{
+  text-align: center;
+  color: white;
+}
+.nav{
+  background: #3991DA;
+  width: 80%;
+  height: 40px;
+  margin-left: 2%;
+  margin-top: 5%;
+  float: left;
+  border-radius: 5px;
+}
+
+.nav ul li{
+  background: transparent;
+  float: left;
+  display: inline-block;
+  margin: 0 1px 5px 0;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  width: 19%;
+  text-align: center;
+  border-left: solid 1px #3D9BE9;
+  cursor: pointer;
+}
+.nav ul li a{
+  color: white;
+}
+.nav ul li:hover{
+  background: #59B9F9;
+}
+.nav ul .uno{
+  margin-left: 2%;
+}
+.nav ul li a{
+  text-decoration: none;
+
+}
+
+.Usuario{
+  background: #D6E9F9;
+  float: right;
+  color: #52A89E;
+  margin-right: 2%;
+  margin-top: 3%;
+  width: 200px;
+  height: 80px;
+  border: solid 5px #A9A9A9;
+  text-align: center;
+  border-radius: 5px;
+
+}
+.Cuerpo{
+  width: 100%;
+  background: rgba(255,255,255, 0.8);
+  height: 650px;
+  padding-top: 1px;
+
+}
+
+
+.uladech{
+  width: 50%;
+  float: left;
+}
+
+.Contenido{
+  width: 70%;
+  height: 350px;
+  background: transparent;
+  display: inline-block;
+  margin-left: 15%;
+}
+.Datos{
+  background: transparent;
+  width: 50%;
+  height: 100%;
+  float: left;
+  margin: auto;
+}
+.input{
+  width: 100%;
+  background: blue;
+  height: 100%;
+}
+
+.dos{
+  color: #006C6D;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 4%;
+  width: 60%;
+  margin-left: 20%;
+}
+.texto{
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.boton{
+  background: #006C6D;
+  color: white;
+  margin-top:2%;
+  width: 150px;
+  height: 50px;
+  margin-left: 20%;
+  border: 2px solid #006C6D;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px #999;
+  cursor: pointer;
+}
+.boton:hover{
+  background: #006464;
+}
+
+.footer{
+  padding-bottom: 20px;
+  width: 55%;
+  float: left;
+padding-left: 15%;
+background: transparent;
+margin-top: 5%;
+}
+.footer .text{
+
+  color: #184B43;
+
+}
+
+.social{
+  padding-bottom: 10px;
+  width: 20%;
+  display: inline-block;
+  float: right;
+  background: transparent;
+  padding-right: 10%;
+  margin-top: 4%;
+}
+
+  .icon-facebook{padding: 5px; background: #EAEAEA; color: #80878B; border-radius: 100%; font-size: 25px;}
+
+  .icon-twitter{padding: 5px; background: #EAEAEA; color: #80878B; border-radius: 100%; font-size: 20px;
+  }
+  .icon-youtube{ padding: 5px; background: #EAEAEA; color:#80878B; border-radius: 100%; font-size: 20px;}
+
+  .icon-gmail{padding: 5px; background: #EAEAEA; color: #80878B; border-radius: 100%; font-size: 20px;
+  }
